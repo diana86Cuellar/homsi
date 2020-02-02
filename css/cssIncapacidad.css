@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(../img/fondof_2.jpg) no-repeat center top;
+    background-size: cover;
+    font-family: sans-serif;
+    height: auto;
+  }
+  
+  
+  .login-box {
+    width: 320px;
+    height: auto;
+    background: #021D68;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    /*box-sizing: border-box;*/
+    border-radius: 15px 15px 15px 15px;
+    padding: 70px 30px;
+    opacity: 0.85;
+  }
+  
+  .login-box .avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+  }
+  
+  .login-box h1 {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+  }
+  
+  .login-box label {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+  }
+  
+  .login-box input {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .login-box input[type="text"], .login-box input[type="password"], .login-box input[type="email"] {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+  }
+  
+  .login-box input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #04B431;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+    font-weight: bold;
+  }
+  .login-box input[type="button"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #B40404;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+    font-weight: bold;
+    
+    
+  }
+  
+  .login-box input[type="submit"]:hover {
+    cursor: pointer;
+    background: #04B431;
+    color: #000;
+  }
+  
+  .login-box input[type="button"]:hover {
+    cursor: pointer;
+    background: #FF0000;
+    color: #000;
+  }
+  .login-box a {
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+  }
+  
+  .login-box a:hover {
+    color: #000;
+  }
